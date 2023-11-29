@@ -1,0 +1,57 @@
+body{
+    background-color: #111827;
+}
+#content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.pane1{
+    width: 1/2;
+    height: 100%;
+    border: solid white;
+    color: white;
+}
+.navbar {
+    display: flex;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #111827;
+    border: solid #DD571C;
+    overflow: hidden;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #DD571C;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 0;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link{
+    display: flex;
+    gap: 1rem;
+    color: #DD571C;
+    padding: 1rem;
+    align-items: center;
+}
+.name{
+    border: solid red;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
